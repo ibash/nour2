@@ -1,0 +1,45 @@
+markdownH1: '' # htmlH1
+markdownH2: '' # htmlH2
+markdownH3: '' # htmlH3
+markdownH4: '' # htmlH4
+markdownH5: '' # htmlH5
+markdownH6: '' # htmlH6
+markdownHeadingRule: '' # markdownRule
+markdownHeadingDelimiter: '' # Delimiter
+markdownOrderedListMarker: '' # markdownListMarker
+markdownListMarker: '' # htmlTagName
+markdownBlockquote: '' # Comment
+markdownRule: '' # PreProc
+markdownLinkText: '' # htmlLink
+markdownIdDeclaration: '' # Typedef
+markdownId: '' # Type
+markdownAutomaticLink: '' # markdownUrl
+markdownUrl: '' # Float
+markdownUrlTitle: '' # String
+markdownIdDelimiter: '' # markdownLinkDelimiter
+markdownUrlDelimiter: '' # htmlTag
+markdownUrlTitleDelimiter: '' # Delimiter
+markdownItalic: '' # htmlItalic
+markdownBold: '' # htmlBold
+markdownBoldItalic: '' # htmlBoldItalic
+markdownCodeDelimiter: '' # Delimiter
+markdownEscape: '' # Special
+markdownError: '' # Error
+
+'@markup.heading': 'c103 - b'
+'@markup.heading.1.markdown': '@@markup.heading'
+'@markup.heading.2.markdown': '@@markup.heading'
+'@markup.heading.3.markdown': '@@markup.heading'
+'@markup.heading.4.markdown': '@@markup.heading'
+'@markup.heading.5.markdown': '@@markup.heading'
+'@markup.heading.6.markdown': '@@markup.heading'
+'@markup.heading.1.marker': 'c208'
+'@markup.heading.2.marker': '@@markup.heading.1.marker'
+'@markup.heading.3.marker': '@@markup.heading.1.marker'
+'@markup.heading.4.marker': '@@markup.heading.1.marker'
+'@markup.heading.5.marker': '@@markup.heading.1.marker'
+'@markup.heading.6.marker': '@@markup.heading.1.marker'
+'@markup.italic': '- - i'
+'@markup.link': '@Underlined'
+'@markup.list.unchecked': 'c245'
+'@markup.strong': '- - b'

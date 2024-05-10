@@ -63,6 +63,23 @@ hi PreProc guifg=#ffffd7 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Type guifg=#8787af ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#ff8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#8a8a8a ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @markup.heading guifg=#8787af ctermfg=103 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi link @markup.heading.1.markdown @markup.heading
+hi link @markup.heading.2.markdown @markup.heading
+hi link @markup.heading.3.markdown @markup.heading
+hi link @markup.heading.4.markdown @markup.heading
+hi link @markup.heading.5.markdown @markup.heading
+hi link @markup.heading.6.markdown @markup.heading
+hi @markup.heading.1.marker guifg=#ff8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link @markup.heading.2.marker @markup.heading.1.marker
+hi link @markup.heading.3.marker @markup.heading.1.marker
+hi link @markup.heading.4.marker @markup.heading.1.marker
+hi link @markup.heading.5.marker @markup.heading.1.marker
+hi link @markup.heading.6.marker @markup.heading.1.marker
+hi @markup.italic guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi link @markup.link Underlined
+hi @markup.list.unchecked guifg=#8a8a8a ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @markup.strong guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi pythonOperator guifg=#8787af ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi pythonException guifg=#ff00d7 ctermfg=200 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi pythonImport guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
