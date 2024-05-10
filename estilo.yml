@@ -1,0 +1,10 @@
+name: 'nour2'
+version: '1.0.0'
+license: 'MIT'
+author: 'Islam Sharabash'
+url: 'https://github.com/ibash/nour2'
+description: 'undefined'
+colorschemes:
+- name: 'nour2'
+  background: 'dark'
+  palette: 'nour2'
