@@ -29,6 +29,19 @@ endif
 
 let g:nour2_bold = get(g:, '_bold', 0)
 
+hi link @keyword.conditional.typescript Statement
+hi link @keyword.return.typescript Statement
+hi link @lsp.type.parameter.typescript PreProc
+hi link @lsp.type.property.typescript Normal
+hi link @lsp.type.variable.typescript Normal
+hi link @lsp.typemod.member.defaultLibrary.typescript Keyword
+hi link @punctuation.bracket.typescript Normal
+hi link @punctuation.delimiter.typescript Normal
+hi link @punctuation.special.typescript Normal
+hi link @variable.builtin.typescript Type
+hi link @variable.member.typescript Normal
+hi link @variable.parameter.typescript PreProc
+hi link @variable.typescript Normal
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#1c1c1c ctermbg=234 gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#626262 ctermbg=241 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
@@ -56,7 +69,7 @@ hi String guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Boolean guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Number guifg=#ff8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Function guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Function guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi Statement guifg=#8787af ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Keyword guifg=#ff8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PreProc guifg=#ffffd7 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -80,9 +93,33 @@ hi @markup.italic guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=Italic cte
 hi link @markup.link Underlined
 hi @markup.list.unchecked guifg=#8a8a8a ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @markup.strong guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi pythonOperator guifg=#8787af ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi pythonException guifg=#ff00d7 ctermfg=200 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi pythonImport guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link @keyword.vim Statement
+hi link @operator.vim Normal
+hi link @variable.vim Identifier
 hi pythonBuiltinFunction guifg=#ff00d7 ctermfg=200 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi pythonExClass guifg=#ff00d7 ctermfg=200 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi pythonException guifg=#ff00d7 ctermfg=200 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi pythonImport guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi pythonOperator guifg=#8787af ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link @keyword.conditional.python Statement
+hi link @keyword.directive.python Comment
+hi link @keyword.function.python Statement
+hi link @keyword.import.python PreProc
+hi link @keyword.operator.python Statement
+hi link @keyword.python Statement
+hi link @variable.parameter.python Normal
+hi link @variable.python Normal
+hi link @function.method.call.python Normal
+hi link @punctuation.bracket.python Normal
+hi link @keyword.return.python Statement
+hi link @function.builtin.python Function
+hi link @constant.builtin.python Function
+hi link @function.call.python Normal
+hi link @punctuation.delimiter.python Normal
+hi link @variable.member.python Normal
+hi link @variable.builtin.python Normal
+hi link @constructor.python Function
+hi link @keyword.type.python Statement
+hi link @type.python Function
+hi link @keyword.repeat.python Statement
 

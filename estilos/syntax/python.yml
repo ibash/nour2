@@ -1,25 +1,33 @@
-pythonStatement: '' # Statement
-pythonConditional: '' # Conditional
-pythonRepeat: '' # Repeat
-pythonOperator: 'c103'
-pythonException: 'c200'
-pythonInclude: '' # Include
-pythonDecorator: '' # Define
-pythonFunction: '' # Function
-pythonComment: '' # Comment
-pythonTodo: '' # Todo
-pythonString: '' # String
-pythonRawString: '' # String
-pythonQuotes: '' # String
-pythonTripleQuotes: '' # pythonQuotes
-pythonEscape: '' # Special
-pythonNumber: '' # Number
-pythonBuiltin: '' # Function
-pythonExceptions: '' # Structure
-pythonSpaceError: '' # Error
-pythonDoctest: '' # Special
-pythonDoctestValue: '' # Define
-
-pythonImport: 'c255'
 pythonBuiltinFunction: 'c200'
 pythonExClass: 'c200'
+pythonException: 'c200'
+pythonImport: 'c255'
+pythonOperator: 'c103'
+
+'@keyword.conditional.python': '@Statement'
+'@keyword.directive.python': '@Comment'
+'@keyword.function.python': '@Statement'
+'@keyword.import.python': '@PreProc'
+'@keyword.operator.python': '@Statement'
+'@keyword.python': '@Statement'
+#'@variable.parameter.python': '@PreProc'
+'@variable.parameter.python': '@Normal'
+'@variable.python': '@Normal'
+
+'@function.method.call.python': '@Normal'
+'@punctuation.bracket.python': '@Normal'
+'@keyword.return.python': '@Statement'
+#'@keyword.return.python': '@Statement'
+'@function.builtin.python': '@Function'
+#'@type.builtin.python'
+'@constant.builtin.python': '@Function'
+'@function.call.python': '@Normal'
+'@punctuation.delimiter.python': '@Normal'
+
+
+'@variable.member.python': '@Normal'
+'@variable.builtin.python': '@Normal'
+'@constructor.python': '@Function'
+'@keyword.type.python': '@Statement'
+'@type.python': '@Function'
+'@keyword.repeat.python': '@Statement'

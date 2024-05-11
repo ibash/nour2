@@ -53,7 +53,7 @@ Boolean: 'c148'
 Number: 'c208'
 Float: '' # Constant
 Identifier: 'c148'
-Function: 'c255'
+Function: 'c255 - b'
 Statement: 'c103'
 Conditional: '' # Statement
 Repeat: '' # Statement

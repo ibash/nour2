@@ -1,0 +1,3 @@
+'@keyword.vim': '@Statement'
+'@operator.vim': '@Normal'
+'@variable.vim': '@Identifier'
