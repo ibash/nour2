@@ -1,82 +1,83 @@
-# BASE UI
-ColorColumn: '- c234'
 Conceal: ''
-Cursor: '- c241'
-CursorIM: ''
-CursorColumn: '- c238'
-CursorLine: '- c234'
-CursorLineNr: ''
-Directory: ''
-DiffAdd: 'c108 c235 r'
-DiffChange: 'c103 c235 r'
-DiffDelete: 'c131 c235 r'
-DiffText: 'c208 c235 r'
-ErrorMsg: ''
-VertSplit: 'c238 c238'
-Folded: 'c248 c4'
-FoldColumn: ''
-SignColumn: ''
-IncSearch: ''
-LineNr: 'c244 c232'
-MatchParen: 'c157 c237 b'
-ModeMsg: ''
-MoreMsg: ''
-NonText: 'c244 c235'
-Normal: 'c253 c234'
-PMenu: 'c255 c238'
-PMenuSel: 'c0 c148'
-PmenuSbar: ''
-PmenuThumb: ''
-Question: ''
-Search: ''
-SpecialKey: 'c244 c236'
-SpellBad: ''
-SpellLocal: ''
-SpellCap: ''
-SpellRare: ''
-StatusLine: 'c253 c238'
-StatusLineNC: 'c246 c238'
-TabLine: ''
-TabLineFill: ''
-TabLineSel: ''
-Title: 'c254 - b'
-Visual: 'c254 c4'
-VisualNOS: ''
-WarningMsg: ''
-WildMenu: ''
-# BASE SYNTAX
-Comment: 'c244'
-Constant: 'c208'
-String: 'c148'
-Character: '' # Constant
-Boolean: 'c148'
-Number: 'c208'
-Float: '' # Constant
-Identifier: 'c148'
-Function: 'c255'
-Statement: 'c103'
-Conditional: '' # Statement
-Repeat: '' # Statement
-Label: '' # Statement
-Operator: '' # Statement
-Keyword: 'c208'
-Exception: '' # Statement
-PreProc: 'c230'
-Include: '' # PreProc
-Define: '' # PreProc
-Macro: '' # PreProc
-PreCondit: '' # PreProc
-Type: 'c103'
-StorageClass: '' # Type
-Structure: '' # Type
-Typedef: '' # Type
-Special: 'c208'
-SpecialChar: '' # Special
-Tag: '' # Special
-Delimiter: '' # Special
-SpecialComment: '' # Special
-Debug: '' # Special
-Underlined: ''
-Ignore: ''
-Error: ''
-Todo: 'c245'
+# # BASE UI
+# ColorColumn: '- c234'
+# Conceal: ''
+# Cursor: '- c241'
+# CursorIM: ''
+# CursorColumn: '- c238'
+# CursorLine: '- c234'
+# CursorLineNr: ''
+# Directory: ''
+# DiffAdd: 'c108 c235 r'
+# DiffChange: 'c103 c235 r'
+# DiffDelete: 'c131 c235 r'
+# DiffText: 'c208 c235 r'
+# ErrorMsg: ''
+# VertSplit: 'c238 c238'
+# Folded: 'c248 c4'
+# FoldColumn: ''
+# SignColumn: ''
+# IncSearch: ''
+# LineNr: 'c244 c232'
+# MatchParen: 'c157 c237 b'
+# ModeMsg: ''
+# MoreMsg: ''
+# NonText: 'c244 c235'
+# Normal: 'c253 c234'
+# PMenu: 'c255 c238'
+# PMenuSel: 'c0 c148'
+# PmenuSbar: ''
+# PmenuThumb: ''
+# Question: ''
+# Search: ''
+# SpecialKey: 'c244 c236'
+# SpellBad: ''
+# SpellLocal: ''
+# SpellCap: ''
+# SpellRare: ''
+# StatusLine: 'c253 c238'
+# StatusLineNC: 'c246 c238'
+# TabLine: ''
+# TabLineFill: ''
+# TabLineSel: ''
+# Title: 'c254 - b'
+# Visual: 'c254 c4'
+# VisualNOS: ''
+# WarningMsg: ''
+# WildMenu: ''
+# # BASE SYNTAX
+# Comment: 'c244'
+# Constant: 'c208'
+# String: 'c148'
+# Character: '' # Constant
+# Boolean: 'c148'
+# Number: 'c208'
+# Float: '' # Constant
+# Identifier: 'c148'
+# Function: 'c255'
+# Statement: 'c103'
+# Conditional: '' # Statement
+# Repeat: '' # Statement
+# Label: '' # Statement
+# Operator: '' # Statement
+# Keyword: 'c208'
+# Exception: '' # Statement
+# PreProc: 'c230'
+# Include: '' # PreProc
+# Define: '' # PreProc
+# Macro: '' # PreProc
+# PreCondit: '' # PreProc
+# Type: 'c103'
+# StorageClass: '' # Type
+# Structure: '' # Type
+# Typedef: '' # Type
+# Special: 'c208'
+# SpecialChar: '' # Special
+# Tag: '' # Special
+# Delimiter: '' # Special
+# SpecialComment: '' # Special
+# Debug: '' # Special
+# Underlined: ''
+# Ignore: ''
+# Error: ''
+# Todo: 'c245'

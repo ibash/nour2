@@ -1,25 +1,45 @@
 pythonStatement: '' # Statement
-pythonConditional: '' # Conditional
-pythonRepeat: '' # Repeat
-pythonOperator: 'c103'
-pythonException: 'c200'
-pythonInclude: '' # Include
-pythonDecorator: '' # Define
-pythonFunction: '' # Function
-pythonComment: '' # Comment
-pythonTodo: '' # Todo
-pythonString: '' # String
-pythonRawString: '' # String
-pythonQuotes: '' # String
-pythonTripleQuotes: '' # pythonQuotes
-pythonEscape: '' # Special
-pythonNumber: '' # Number
-pythonBuiltin: '' # Function
-pythonExceptions: '' # Structure
-pythonSpaceError: '' # Error
-pythonDoctest: '' # Special
-pythonDoctestValue: '' # Define
+# pythonStatement: '' # Statement
+# pythonConditional: '' # Conditional
+# pythonRepeat: '' # Repeat
+# pythonOperator: 'c103'
+# pythonException: 'c200'
+# pythonInclude: '' # Include
+# pythonDecorator: '' # Define
+# pythonFunction: '' # Function
+# pythonComment: '' # Comment
+# pythonTodo: '' # Todo
+# pythonString: '' # String
+# pythonRawString: '' # String
+# pythonQuotes: '' # String
+# pythonTripleQuotes: '' # pythonQuotes
+# pythonEscape: '' # Special
+# pythonNumber: '' # Number
+# pythonBuiltin: '' # Function
+# pythonExceptions: '' # Structure
+# pythonSpaceError: '' # Error
+# pythonDoctest: '' # Special
+# pythonDoctestValue: '' # Define
+# 
+# pythonImport: 'c255'
+# pythonBuiltinFunction: 'c200'
+# pythonExClass: 'c200'
 
-pythonImport: 'c255'
-pythonBuiltinFunction: 'c200'
-pythonExClass: 'c200'
+'@keyword.import': '@PreProc'
+'@variable': '@Normal'
+'@punctuation': '@Normal'
+'@type': '@Normal'
+'@keyword.directive': '@Comment'
+#'@function': '@Normal'
+'@operator': '@Normal'
+'@constant': '@Normal'
+'@constant.builtin': '@Identifier'
+#'@function.builtin': '@Identifier'
+'@boolean': '@Identifier'
+'@constructor': '@Normal'
+
+'@function': '@Identifier'
+'@function.builtin': '@Normal'
+'@function.call': '@Normal'
+'@function.method.call': '@Normal'
+
