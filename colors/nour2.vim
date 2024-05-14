@@ -32,7 +32,7 @@ let g:nour2_bold = get(g:, '_bold', 0)
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#1c1c1c ctermbg=234 gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#626262 ctermbg=241 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
-hi CursorLine guifg=NONE ctermfg=NONE guibg=#1c1c1c ctermbg=234 gui=NONE cterm=NONE
+hi CursorLine guifg=NONE ctermfg=NONE guibg=#1c1c1c ctermbg=234 gui=underline cterm=underline guisp=#626262
 hi DiffAdd guifg=#87af87 ctermfg=108 guibg=#262626 ctermbg=235 gui=reverse cterm=reverse
 hi DiffChange guifg=#8787af ctermfg=103 guibg=#262626 ctermbg=235 gui=reverse cterm=reverse
 hi DiffDelete guifg=#af5f5f ctermfg=131 guibg=#262626 ctermbg=235 gui=reverse cterm=reverse
