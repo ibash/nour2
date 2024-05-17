@@ -45,6 +45,7 @@ hi NonText guifg=#808080 ctermfg=8 guibg=#262626 ctermbg=235 gui=NONE cterm=NONE
 hi Normal guifg=#dadada ctermfg=253 guibg=#1c1c1c ctermbg=234 gui=NONE cterm=NONE
 hi PMenu guifg=#eeeeee ctermfg=255 guibg=#1c1c1c ctermbg=234 gui=NONE cterm=NONE
 hi PMenuSel guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
+hi NormalFloat guifg=#dadada ctermfg=253 guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
 hi SpecialKey guifg=#808080 ctermfg=8 guibg=#303030 ctermbg=236 gui=NONE cterm=NONE
 hi StatusLine guifg=#dadada ctermfg=253 guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
 hi StatusLineNC guifg=#949494 ctermfg=246 guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
