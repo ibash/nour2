@@ -43,7 +43,7 @@ hi LineNr guifg=#808080 ctermfg=8 guibg=#080808 ctermbg=232 gui=NONE cterm=NONE
 hi MatchParen guifg=#afffaf ctermfg=157 guibg=#3a3a3a ctermbg=237 gui=Bold cterm=Bold
 hi NonText guifg=#808080 ctermfg=8 guibg=#262626 ctermbg=235 gui=NONE cterm=NONE
 hi Normal guifg=#dadada ctermfg=253 guibg=#1c1c1c ctermbg=234 gui=NONE cterm=NONE
-hi PMenu guifg=#eeeeee ctermfg=255 guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
+hi PMenu guifg=#eeeeee ctermfg=255 guibg=#1c1c1c ctermbg=234 gui=NONE cterm=NONE
 hi PMenuSel guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
 hi SpecialKey guifg=#808080 ctermfg=8 guibg=#303030 ctermbg=236 gui=NONE cterm=NONE
 hi StatusLine guifg=#dadada ctermfg=253 guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
