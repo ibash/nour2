@@ -54,16 +54,16 @@ hi Title guifg=#e4e4e4 ctermfg=254 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi Visual guifg=#e4e4e4 ctermfg=254 guibg=#125CC1 ctermbg=25 gui=NONE cterm=NONE
 hi Comment guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#ff8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi String guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi String guifg=#EBE7E8 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Boolean guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Number guifg=#ff8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Identifier guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Identifier guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Function guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#8787af ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Keyword guifg=#ff8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Keyword guifg=#F6C08F ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PreProc guifg=#ffffd7 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Type guifg=#8787af ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Special guifg=#ff8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Type guifg=#958DFB ctermfg=105 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Special guifg=#C0BFFD ctermfg=147 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#8a8a8a ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @markup.heading guifg=#8787af ctermfg=103 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi link @markup.heading.1.markdown @markup.heading

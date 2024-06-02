@@ -48,30 +48,35 @@ WildMenu: ''
 # BASE SYNTAX
 Comment: 'c244'
 Constant: 'c208'
-String: 'c148'
+#String: 'c148'
+String: 'v2text'
 Character: '' # Constant
 Boolean: 'c148'
 Number: 'c208'
 Float: '' # Constant
-Identifier: 'c148'
+#Identifier: 'c148'
+Identifier: 'f'
 Function: 'c255'
 Statement: 'c103'
 Conditional: '' # Statement
 Repeat: '' # Statement
 Label: '' # Statement
 Operator: '' # Statement
-Keyword: 'c208'
+#Keyword: 'c208'
+Keyword: 'g2'
 Exception: '' # Statement
 PreProc: 'c230'
 Include: '' # PreProc
 Define: '' # PreProc
 Macro: '' # PreProc
 PreCondit: '' # PreProc
-Type: 'c103'
+#Type: 'c103'
+Type: 'p2'
 StorageClass: '' # Type
 Structure: '' # Type
 Typedef: '' # Type
-Special: 'c208'
+#Special: 'c208'
+Special: 's'
 SpecialChar: '' # Special
 Tag: '' # Special
 Delimiter: '' # Special
